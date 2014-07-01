@@ -8,10 +8,9 @@
   <title>海外旅行社</title>
   <meta name="description" content="海外旅行社官方网站">
   <meta name="keywords" content="海外旅行社">
-  <link rel="stylesheet" href="../stylesheets/style.css" type="text/css">
-  <script src="../javascripts/ta.js"></script>
-  <script type="text/javascript" src="../javascripts/jquery-1.7.1.min.js"></script>
-  <script type="text/javascript" src="../javascripts/jquery.lazyload.min.js"></script>
+
+  <%= stylesheet_link_tag "style" %>
+  <%= javascript_include_tag "jquery-1.7.1.min", "jquery.lazyload.min", "ta" %>
   <script>
       $(function () {
           $("img").lazyload({
